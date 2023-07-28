@@ -20,7 +20,7 @@
     
     <!--====== Fontawesome css ======-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
+
     <!--====== Magnific Popup css ======-->
     <link rel="stylesheet" href="assets/css/animate.min.css">
     
@@ -36,24 +36,27 @@
     
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- responsive css   -->
   
   
 </head>
 
-<body>  
+<body>    
 
-    <!--====== PRELOADER PART START ======-->
 
-    <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
-        <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
-    </div>
+ <!--  preloader start -->
+ <div class="loader-wrap">
+    <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+    <div class="layer layer-one"><span class="overlay"></span></div>
+    <div class="layer layer-two"><span class="overlay"></span></div>        
+    <div class="layer layer-three"><span class="overlay"></span></div>        
+</div>
 
-    <!--====== PRELOADER PART ENDS ======-->
+   <!--  preloader end -->
 
-    <!--====== OFFCANVAS MENU PART START ======-->
+ <!--====== OFFCANVAS MENU PART START ======-->
 
     <div class="off_canvars_overlay">
                 
@@ -74,7 +77,7 @@
                                 <li class="menu-item-has-children active">
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index.html">Home 1 </a></li>
                                         <li><a href="index-2.html">Home 2</a></li>
                                         <li><a href="index-3.html">Home 3</a></li>
                                         <li><a href="index-4.html">Home 4</a></li>
@@ -83,22 +86,27 @@
                                         <li><a href="index-7.html">Home 7</a></li>
                                         <li><a href="index-8.html">Home 8</a></li>
                                         <li><a href="index-9.html">Home 9</a></li>
+                                        <li><a href="index-rtl.html">Home Rtl</a></li>
+                                        <li><a href="index-dark.html">Home Dark</a></li>
                                     </ul>
                                 </li>
+                                
                                 <li class="menu-item-has-children active">
-                                    <a href="#service">Service</a>
-                                </li>
-                                <li class="menu-item-has-children active">
-                                    <a href="#features">Feature</a>
-                                </li>
-                                <li class="menu-item-has-children active">
-                                    <a href="#testimonial">Testimonial</a>
+                                    <a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about-us.html">About Us 1</a></li>
+                                        <li><a href="about-us-2.html">About Us 2</a></li>
+                                        <li><a href="error.html">Error</a></li>
+                                        <li><a href="service-details.html">Service</a> </li>
+                                        <li><a href="service-details.html"> Service Details </a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
                                 </li>
                                 <li class="menu-item-has-children active">
                                     <a href="#">News</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">news page</a></li>
-                                        <li><a href="index-2.html">Single News</a></li>
+                                        <li><a href="news.html">news page</a></li>
+                                        <li><a href="single-news.html">Single News</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children active">
@@ -129,16 +137,16 @@
 
     <!--====== OFFCANVAS MENU PART ENDS ======-->
    
-    <!--====== PART START ======-->
+  <!--====== PART START ======-->
     
-    <header class="spotmies-header-area spotmies-header-3-area spotmies-sticky">
+    <header class="spotmies-header-area spotmies-sticky">
         <div class="container">
-            <div class="header-nav-box header-nav-box-3">
+            <div class="header-nav-box">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                         <div class="spotmies-logo-box">
-                            <a href="#">
-                                <img src="assets/images/logo-3.png" alt="">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -146,8 +154,8 @@
                         <div class="spotmies-header-main-menu">
                             <ul>
                                 <li>
-                                    <a href="#">Home <i class="fal fa-angle-down"></i></a>
-                                    <ul class="sub-menu">
+                                    <a href="index.html">Home <i class="fal fa-angle-down"></i></a>
+                                    <ul class="sub-menu big-device-none">
                                         <li><a href="index.html">Home 1</a></li>
                                         <li><a href="index-2.html">Home 2</a></li>
                                         <li><a href="index-3.html">Home 3</a></li>
@@ -156,40 +164,218 @@
                                         <li><a href="index-6.html">Home 6</a></li>
                                         <li><a href="index-7.html">Home 7</a></li>
                                         <li><a href="index-8.html">Home 8</a></li>
-                                        <li><a href="index-9.html">Home 9</a></li>
-                                        <li><a href="index-10.html">Home 10</a></li>
                                         <li><a href="index-rtl.html">Home Rtl</a></li>
                                         <li><a href="index-dark.html">Home Dark</a></li>
                                     </ul>
+
+                                    <!-- home mega menu start -->
+                                   <div class="mega-menu-main-wrap pt-10">
+                                    <ul class="mega-menu-home">
+                                        <li><a href="index.html">
+                                            <img src="./assets/images/pages/index.png" alt=""> Demo 1 </a>
+                                    </li>
+                                        <li><a href="index-2.html">
+                                            <img src="./assets/images/pages/index-2.png" alt=""> Demo 2 </a>
+                                        </li>
+                                        <li><a href="index-3.html">
+                                            <img src="./assets/images/pages/index-3.png" alt=""> Demo 3 </a>
+                                       </li>
+                                        <li><a href="index-4.html">
+                                            <img src="./assets/images/pages/index-4.png" alt=""> Demo 4 </a>
+                                        </li>
+                                        <li><a href="index-5.html">
+                                            <img src="./assets/images/pages/index-5.png" alt=""> Demo 5 </a>
+                                        </li>
+                                        <li><a href="index-6.html">
+                                            <img src="./assets/images/pages/index-6.png" alt=""> Demo 6 </a>
+
+                                     </li>
+                                        <li><a href="index-7.html">
+                                            <img src="./assets/images/pages/index-7.png" alt=""> Demo 7 </a>
+                                        </li>
+                                        <li><a href="index-8.html">
+                                            <img src="./assets/images/pages/index-8.png" alt=""> Demo 8 </a>
+                                        </li>
+                                        <li><a href="index-9.html">
+                                            <img src="./assets/images/pages/index-9.png" alt=""> Demo 9 </a>
+                                        </li>
+                                        <li><a href="index-10.html">
+                                            <img src="./assets/images/pages/index-10.png" alt=""> Demo 10 </a>
+                                        </li>
+                                        <li><a href="index-rtl.html">
+                                            <img src="./assets/images/pages/index-dark.png" alt=""> Demo 11 </a>
+                                       </li>
+                                        <li><a href="index-dark.html">
+                                            <img src="./assets/images/pages/index-rtl.png" alt=""> Demo 12 </a>
+                                        </li>
+                                    </ul>
+                                   </div>
+                                     <!-- home mega menu end -->
+
                                 </li>
-                                <li>
-                                    <a href="service-details.html">Service</a>
+
+                                <li> <a href="#"> Mega Menu  <i class="fal fa-angle-down"></i> </a> 
+                                
+                                
+                                    <!-- pages mega menu start -->
+                                    <div class="pages-mega-menu mega-menu-mainn-wrap pt-50 pb-30">
+
+                                        <ul>
+                                            <li> <a class="hot" class="pages-main-content" href="#"> Demo Layouts </a> </li>
+                                            <li> <a  href="#"> Categories </a> </li>
+                                            <li> <a href="#"> Basic </a> </li>
+                                            <li> <a href="#"> Parallax </a> </li>
+                                            <li> <a href="#"> Infinite Scrolling </a> </li>
+                                            <li> <a href="#"> Boxed </a> </li>
+                                            <li> <a href="#"> Grid </a> </li>
+                                            <li> <a href="#"> Video </a> </li>
+                                            <li> <a href="#"> Fullscreen </a> </li>
+                                            <li> <a href="#"> Lookbook </a> </li>
+                                            <li> <a href="#"> Landing </a> </li>
+                                         
+                                        </ul>
+
+                                        <ul>
+                                            <li> <a class="pages-main-content" href="#"> Pre-built pages </a> </li>
+                                            <li><a href="about-us.html">About Us 1</a></li>
+                                            <li><a href="about-us-2.html">About Us 2</a></li>
+                                            <li><a href="error.html">Error</a></li>
+                                            <li><a href="service-details.html">Service</a> </li>
+                                            <li><a href="service-details.html"> Service Details </a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="shop.html"> Shop </a></li>
+                                            <li><a href="shop-2.html"> Shop 2 </a></li>
+                                            <li><a href="shop-3.html"> Shop 3 </a></li>
+                                            <li><a href="shop-details.html"> Shop Details </a></li>
+                                            <li><a href="shop-details-2.html"> Shop Details 2 </a></li>
+                                         
+                                        </ul>
+
+                                        <ul>
+                                            <li> <a class="pages-main-content projects" href="#"> Portfolio </a> </li>
+                                            <li> <a href="#"> Standard </a> </li>
+                                            <li> <a href="#"> Alternative </a> </li>
+                                            <li> <a href="#"> Alternative </a> </li>
+                                            <li> <a href="#"> Text under image </a> </li>
+                                            <li> <a href="#"> Hover parallax </a> </li>
+                                            <li> <a href="#"> Portfolio fullwidth </a> </li>
+                                            <li> <a href="#"> Infinit scrolling	 </a> </li>
+                                            <li> <a href="#"> Single - sticky	 </a> </li>
+                                            <li> <a href="#"> Single - alternative		 </a> </li>
+                                            <li> <a href="#"> Single - gallery </a> </li>
+                         
+                                    
+                                         
+                                        </ul>
+
+
+                                        <ul class="recent-post-main-wrap">
+                                            <li class="mega-r-post"> Recent Posts  </li>
+                                           <div class="mega-menu-recent-ports">
+                                            <ul class="mega-menu-ul-block">
+                                               
+                                                <li class="recent-right-text"> 
+                                                    <div class="mega-recent-post-text">
+                                                        <a href="#"><img src="./assets/images/blog/3.jpg" alt=""></a>
+                                                        <div class="mega-recent-right-txt">
+                                                            <a class="mega-recent-ftxt" href="#"><h5> Permalink to A companion for extra sleeping </h5></a>
+                                                        <ul class="mega-menu-ul-block mega-menu-ul-block-lst">
+                                                            <li> July 23, 2016 </li>
+                                                            <li> <a class="blog-comment" href="#"> 1 Comment </a> </li>
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="recent-right-text "> 
+                                                    <div class="mega-recent-post-text">
+                                                        <a href="#"><img src="./assets/images/blog/1.jpg" alt=""></a>
+                                                        <div class="mega-recent-right-txt">
+                                                            <a href="#"><h5> Permalink to A companion for extra sleeping </h5></a>
+                                                        <ul class="mega-menu-ul-block mega-menu-ul-block-lst">
+                                                            <li> July 23, 2016 </li>
+                                                            <li> <a class="blog-comment" href="#"> 1 Comment </a> </li>
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="recent-right-text "> 
+                                                    <div class="mega-recent-post-text">
+                                                        <a href="#"><img src="./assets/images/blog/2.jpg" alt=""></a>
+                                                        <div class="mega-recent-right-txt">
+                                                            <a href="#"><h5> Permalink to A companion for extra sleeping </h5></a>
+                                                        <ul class="mega-menu-ul-block mega-menu-ul-block-lst">
+                                                            <li> July 23, 2016 </li>
+                                                            <li> <a class="blog-comment" href="#"> No Comment </a> </li>
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                           </div>
+                         
+                                     
+                                         
+                                        </ul>
+
+
+                                        
+                                    </div>
+                                    <!-- pages mega menu end -->
+                                
+                                
+                                
+                                
+                                
+                                
                                 </li>
+                                
                                 <li> 
                                     <a href="#">Pages  <i class="fal fa-angle-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="about-us.html">About Us 1</a></li>
                                         <li><a href="about-us-2.html">About Us 2</a></li>
                                         <li><a href="error.html">Error</a></li>
-                                        <li><a href="shop.html">shop</a></li>
-                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                        <li><a href="service-details.html">Service</a> </li>
+                                        <li><a href="service-details.html"> Service Details </a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+
+
+
+
+
+                                </li>
+
+                                <li><a href="#"> Shop <i class="fal fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="shop.html"> Shop </a></li>
+                                        <li><a href="shop-2.html"> Shop 2 </a></li>
+                                        <li><a href="shop-3.html"> Shop 3 </a></li>
+                                        <li><a href="shop-details.html"> Shop Details </a></li>
+                                        <li><a href="shop-details-2.html"> Shop Details 2 </a></li>
                                     </ul>
                                 </li>
+
+                               
+                                
                                 <li>
                                     <a href="#">News <i class="fal fa-angle-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="news.html">News Page</a></li>
                                         <li><a href="single-news.html">Single News</a></li>
                                     </ul>
+
+
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                         <div class="spotmies-btn-box text-right">
                             <a class="login-btn" href="#"><i class="fal fa-user"></i> Login</a>
-                            <a class="main-btn ml-30" href="#">Get Started</a>
+                            <a class=" animated_btn ml-30" href="#">Get Started</a>
                             <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
                                 <i class="fa fa-bars"></i>
                             </div>
@@ -198,29 +384,48 @@
                 </div>
             </div>
         </div>
+        
     </header>
+  
     
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE HERO PART START ======-->
     
-    <section class="spotmies-hero-area spotmies-hero-3-area">
+    <section class="spotmies-hero-area">
         <div class="container">
-            <div class="row  justify-content-center">
-                <div class="col-lg-10">
-                    <div class="spotmies-hero-content text-center">
-                        <h1 class="spotmies-title">Creative way to Showcase your app </h1>
-                        <p>Jolly good excuse my french boot super my good sir cup of <br> char richard about chinwag.</p>
-                        <div class="hero-btns">
-                            <a class="main-btn" href="#">Get a Quote</a>
-                            <a class="spotmies-video-popup" href="https://www.youtube.com/watch?v=EE7NqzhMDms"><i class="fas fa-play"></i> Play Video</a>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="spotmies-hero-content">
+                        <span>Welcome To Spotmies</span>
+                        <h1 class="spotmies-title">Manage it all, in this all new system.</h1>
+                        <p>Hanky panky lavatory up the duff jolly good cack brolly is chinwag zonked happy days sloshed.</p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-apple"></i> Download for iOS</a></li>
+                            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="spotmies-hero-thumb">
+                        <div class="thumb">
+                            <img src="assets/images/hero-thumb-1.png" alt="">
                         </div>
-                        <div class="thumb mt-100 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
-                            <img src="assets/images/hero-thumb-4.png" alt="">
+                        <div class="thumb-2">
+                            <img src="assets/images/hero-thumb-2.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="hero-shape-1">
+            <img src="assets/images/shape/shape-2.png" alt="">
+        </div>
+        <div class="hero-shape-2">
+            <img src="assets/images/shape/shape-3.png" alt="">
+        </div>
+        <div class="hero-shape-3">
+            <img src="assets/images/shape/shape-4.png" alt="">
         </div>
     </section>
     
@@ -228,55 +433,55 @@
 
     <!--====== APPIE SERVICES PART START ======-->
     
-    <section class="spotmies-service-area spotmies-service-3-area pt-195 pb-100" id="service">
+    <section class="spotmies-service-area pt-90 pb-100" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="spotmies-section-title text-center">
-                        <h3 class="spotmies-title">What you can do</h3>
+                        <h3 class="spotmies-title">Designed with <br> The applicant in mind.</h3>
                         <p>The full monty spiffing good time no biggie cack grub fantastic. </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="spotmies-single-service spotmies-single-services-3 text-center mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                    <div class="spotmies-single-service text-center mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
                         <div class="icon">
                             <img src="assets/images/icon/1.png" alt="">
+                            <span>1</span>
                         </div>
-                        <h4 class="spotmies-title">Easy to use</h4>
+                        <h4 class="spotmies-title">Searching</h4>
                         <p>Mucker plastered bugger all mate morish are.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="spotmies-single-service spotmies-single-services-3 text-center mt-30 item-2 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
+                    <div class="spotmies-single-service text-center mt-30 item-2 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
                         <div class="icon">
                             <img src="assets/images/icon/2.png" alt="">
+                            <span>2</span>
                         </div>
-                        <h4 class="spotmies-title">App Development</h4>
+                        <h4 class="spotmies-title">Designing</h4>
                         <p>Mucker plastered bugger all mate morish are.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="spotmies-single-service spotmies-single-services-3 text-center mt-30 item-3 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="600ms">
+                    <div class="spotmies-single-service text-center mt-30 item-3 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="600ms">
                         <div class="icon">
                             <img src="assets/images/icon/3.png" alt="">
+                            <span>3</span>
                         </div>
-                        <h4 class="spotmies-title">Fully Functional</h4>
+                        <h4 class="spotmies-title">Building</h4>
                         <p>Mucker plastered bugger all mate morish are.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="spotmies-single-service spotmies-single-services-3 text-center mt-30 item-4 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms">
+                    <div class="spotmies-single-service text-center mt-30 item-4 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms">
                         <div class="icon">
                             <img src="assets/images/icon/4.png" alt="">
+                            <span>4</span>
                         </div>
-                        <h4 class="spotmies-title">Secured protocol</h4>
+                        <h4 class="spotmies-title">Suporting</h4>
                         <p>Mucker plastered bugger all mate morish are.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -285,44 +490,88 @@
     
     <!--====== APPIE SERVICES PART ENDS ======-->
 
-    <!--====== APPIE FUN FACT PART START ======-->
+    <!--====== APPIE FEATURES PART START ======-->
     
-    <section class="spotmies-fun-fact-area">
+    <section class="spotmies-features-area pt-100" id="features">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="spotmies-fun-fact-box wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
-                        <div class="row r">
-                            <div class="col-lg-6">
-                                <div class="spotmies-fun-fact-content">
-                                    <h3 class="title">Get started with Spotmies Template.</h3>
-                                    <p>The app provides design and digital marketing, applied arts can include industrial design</p>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="spotmies-fun-fact-item">
-                                                <h4 class="title">700k</h4>
-                                                <span>App Downloads</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="spotmies-fun-fact-item">
-                                                <h4 class="title">476+</h4>
-                                                <span>Average Review</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="spotmies-fun-fact-item">
-                                                <h4 class="title">30M</h4>
-                                                <span>Active Users</span>
-                                            </div>
-                                        </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="spotmies-features-tabs-btn">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-cog"></i> Settings</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-exclamation-triangle"></i> Report</a>
+                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-bell"></i> Saeety Notices</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-lock"></i> App Lock</a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-thumb text-center wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                                        <img src="assets/images/features-thumb-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-content wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
+                                        <span>Custom Reacyions</span>
+                                        <h3 class="title">Let the <br> Conversation flow</h3>
+                                        <p>Car boot absolutely bladdered posh burke the wireless mush some dodg.</p>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="spotmies-fun-fact-play">
-                                    <a class="spotmies-video-popup" href="https://www.youtube.com/watch?v=EE7NqzhMDms"><i class="fas fa-play"></i></a>
-                                    <img src="assets/images/fun-fact-thumb.png" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                                        <img src="assets/images/features-thumb-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
+                                        <span>Custom Reacyions</span>
+                                        <h3 class="title">Let the <br> Conversation flow</h3>
+                                        <p>Car boot absolutely bladdered posh burke the wireless mush some dodg.</p>
+                                        <a class="main-btn" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                                        <img src="assets/images/features-thumb-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
+                                        <span>Custom Reacyions</span>
+                                        <h3 class="title">Let the <br> Conversation flow</h3>
+                                        <p>Car boot absolutely bladdered posh burke the wireless mush some dodg.</p>
+                                        <a class="main-btn" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                                        <img src="assets/images/features-thumb-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="spotmies-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
+                                        <span>Custom Reacyions</span>
+                                        <h3 class="title">Let the <br> Conversation flow</h3>
+                                        <p>Car boot absolutely bladdered posh burke the wireless mush some dodg.</p>
+                                        <a class="main-btn" href="#">Learn More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -330,77 +579,67 @@
                 </div>
             </div>
         </div>
+        <div class="features-shape-1">
+            <img src="assets/images/shape/shape-6.png" alt="">
+        </div>
+        <div class="features-shape-2">
+            <img src="assets/images/shape/shape-7.png" alt="">
+        </div>
+        <div class="features-shape-3">
+            <img src="assets/images/shape/shape-8.png" alt="">
+        </div>
     </section>
     
-    <!--====== APPIE FUN FACT PART ENDS ======-->
+    <!--====== APPIE FEATURES PART ENDS ======-->
 
-    <!--====== APPIE ABOUT 3 PART START ======-->
+    <!--====== APPIE TRAFFIC PART START ======-->
     
-    <section class="spotmies-about-3-area pt-100 pb-100" id="features">
+    <section class="spotmies-traffic-area pt-140 pb-180">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="spotmies-about-thumb-3 wow animated fadeInLeft" data-wow-duration="2000ms" data-wow-delay="400ms">
-                        <img src="assets/images/about-thumb-2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-7">
                     <div class="spotmies-traffic-title">
-                        <h3 class="title">Spotmies lets you launch your app in minutes.</h3>
+                        <span>Traffic</span>
+                        <h3 class="title">Stage reporting with  50k queries.</h3>
                         <p>He nicked it tickety boo harry the cras bargy chap mush spiffing spend a penny the full monty burke butty.</p>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="spotmies-traffic-service mb-30">
                                 <div class="icon">
-                                    <img src="assets/images/icon/5.svg" alt="">
+                                    <i class="fal fa-check"></i>
                                 </div>
                                 <h5 class="title">Carefully designed</h5>
                                 <p>Mucker plastered bugger all mate morish are.</p>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="spotmies-traffic-service item-2 mb-30">
                                 <div class="icon">
-                                    <img src="assets/images/icon/1.png" alt="">
-                                </div>
-                                <h5 class="title">Seamless Sync</h5>
-                                <p>Mucker plastered bugger all mate morish are.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="traffic-btn mt-50">
-                                <a class="main-btn" href="#">Learn More <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mt-100  flex-column-reverse flex-lg-row">
-                <div class="col-lg-6">
-                    <div class="spotmies-traffic-title">
-                        <h3 class="title">Browse over 40k Apps over the world</h3>
-                        <p>He nicked it tickety boo harry the cras bargy chap mush spiffing spend a penny the full monty burke butty.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="spotmies-traffic-service mb-30 item-3">
-                                <div class="icon">
-                                    <img src="assets/images/icon/6.svg" alt="">
-                                </div>
-                                <h5 class="title">User Interactive</h5>
-                                <p>Mucker plastered bugger all mate morish are.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="spotmies-traffic-service item-2 mb-30 item-4">
-                                <div class="icon">
-                                    <img src="assets/images/icon/7.svg" alt="">
+                                    <i class="fal fa-check"></i>
                                 </div>
                                 <h5 class="title">Choose a App</h5>
                                 <p>Mucker plastered bugger all mate morish are.</p>
                             </div>
                         </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="spotmies-traffic-service item-3">
+                                <div class="icon">
+                                    <i class="fal fa-check"></i>
+                                </div>
+                                <h5 class="title">Seamless Sync</h5>
+                                <p>Mucker plastered bugger all mate morish are.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="spotmies-traffic-service item-4">
+                                <div class="icon">
+                                    <i class="fal fa-check"></i>
+                                </div>
+                                <h5 class="title">User Interactive</h5>
+                                <p>Mucker plastered bugger all mate morish are.</p>
+                            </div>
+                        </div>
                         <div class="col-lg-12">
                             <div class="traffic-btn mt-50">
                                 <a class="main-btn" href="#">Learn More <i class="fal fa-arrow-right"></i></a>
@@ -408,107 +647,72 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="spotmies-about-thumb-3 text-right wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="400ms">
-                        <img src="assets/images/about-thumb-3.png" alt="">
-                    </div>
-                </div>
             </div>
+        </div>
+        <div class="traffic-thumb ">
+            <img class="wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="200ms" src="assets/images/traffic-thumb.png" alt="">
         </div>
     </section>
     
-    <!--====== APPIE ABOUT 3 PART ENDS ======-->
+    <!--====== APPIE TRAFFIC PART ENDS ======-->
 
-    <!--====== APPIE SHOWCASE PART START ======-->
+    <!--====== APPIE TESTIMONIAL PART START ======-->
     
-    <section class="spotmies-showcase-area ">
+    <section class="spotmies-testimonial-area pt-100 pb-160" id="testimonial">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="spotmies-section-title text-center">
-                        <h3 class="spotmies-title">Creative app showcase</h3>
-                        <p>The app provides design and digital marketing.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row spotmies-showcase-slider">
-                <div class="col-lg-3">
-                    <div class="spotmies-showcase-item mt-30">
-                        <a class="spotmies-image-popup" href="assets/images/showcase-1.png"><img src="assets/images/showcase-1.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="spotmies-showcase-item mt-30">
-                        <a class="spotmies-image-popup" href="assets/images/showcase-2.png"><img src="assets/images/showcase-2.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="spotmies-showcase-item mt-30">
-                        <a class="spotmies-image-popup" href="assets/images/showcase-3.png"><img src="assets/images/showcase-3.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="spotmies-showcase-item mt-30">
-                        <a class="spotmies-image-popup" href="assets/images/showcase-4.png"><img src="assets/images/showcase-4.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="spotmies-showcase-item mt-30">
-                        <a class="spotmies-image-popup" href="assets/images/showcase-2.png"><img src="assets/images/showcase-2.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="showcase-shape-1">
-            <img src="assets/images/shape/shape-14.png" alt="">
-        </div>
-        <div class="showcase-shape-2">
-            <img src="assets/images/shape/shape-13.png" alt="">
-        </div>
-        <div class="showcase-shape-3">
-            <img src="assets/images/shape/shape-12.png" alt="">
-        </div>
-        <div class="showcase-shape-4">
-            <img src="assets/images/shape/shape-15.png" alt="">
-        </div>
-    </section>
-    
-    <!--====== APPIE SHOWCASE PART ENDS ======-->
-
-    <!--====== APPIE DOWNLOAD 3 PART START ======-->
-    
-    <section class="spotmies-download-3-area pt-100" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="spotmies-section-title text-center">
-                        <h3 class="spotmies-title">Download app today!</h3>
-                        <p>Download app for Andraoid today — it's free.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="spotmies-download-3-box mt-30 mr-20 wow animated fadeInLeft" data-wow-duration="2000ms" data-wow-delay="200ms">
-                        <div class="content">
-                            <h4 class="title">Android</h4>
-                            <p>Download app for Android today — it's free.</p>
-                            <a class="main-btn" href="#"><i class="fab fa-google-play"></i>Download for Android</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="spotmies-testimonial-slider">
+                        <div class="spotmies-testimonial-item text-center">
+                            <div class="author-info">
+                                <img src="assets/images/testimonial-user.png" alt="">
+                                <h5 class="title">Jason Response</h5>
+                                <span>April 14, 2022</span>
+                            </div>
+                            <div class="text">
+                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="thumb text-center">
-                            <img src="assets/images/download-thumb-1.png" alt="">
+                        <div class="spotmies-testimonial-item text-center">
+                            <div class="author-info">
+                                <img src="assets/images/testimonial-user.png" alt="">
+                                <h5 class="title">Jason Response</h5>
+                                <span>April 14, 2022</span>
+                            </div>
+                            <div class="text">
+                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="spotmies-download-3-box mt-30 ml-20 wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="400ms">
-                        <div class="content">
-                            <h4 class="title">iOS & iPadOS</h4>
-                            <p>Download app for iOS today — it's free.</p>
-                            <a class="main-btn main-btn-2" href="#"><i class="fab fa-apple"></i>Download for iOS</a>
-                        </div>
-                        <div class="thumb text-right">
-                            <img src="assets/images/download-thumb-2.png" alt="">
+                        <div class="spotmies-testimonial-item text-center">
+                            <div class="author-info">
+                                <img src="assets/images/testimonial-user.png" alt="">
+                                <h5 class="title">Jason Response</h5>
+                                <span>April 14, 2022</span>
+                            </div>
+                            <div class="text">
+                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -516,122 +720,448 @@
         </div>
     </section>
     
-    <!--====== APPIE DOWNLOAD 3 PART ENDS ======-->
+    <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
-    <!--====== APPIE BLOG 3 PART START ======-->
+    <!--====== APPIE TEAM PART START ======-->
     
-    <section class="spotmies-blog-3-area pt-90 pb-100">
+    <section class="spotmies-team-area pt-90 pb-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="spotmies-section-title text-center">
-                        <h3 class="spotmies-title">Latest blog posts</h3>
-                        <p>The app provides design and digital marketing.</p>
+                        <h3 class="spotmies-title">Meet our Team Members</h3>
+                        <p>Different layouts and styles for team sections.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="spotmies-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                        <div class="thumb">
+                            <img src="assets/images/team-1.jpg" alt="">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="content text-center">
+                            <h5 class="title">Benjamin Evalent</h5>
+                            <span>CEO-Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="spotmies-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
+                        <div class="thumb">
+                            <img src="assets/images/team-2.jpg" alt="">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="content text-center">
+                            <h5 class="title">Benjamin Evalent</h5>
+                            <span>CEO-Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="spotmies-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="600ms">
+                        <div class="thumb">
+                            <img src="assets/images/team-3.jpg" alt="">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="content text-center">
+                            <h5 class="title">Benjamin Evalent</h5>
+                            <span>CEO-Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="spotmies-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms">
+                        <div class="thumb">
+                            <img src="assets/images/team-4.jpg" alt="">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="content text-center">
+                            <h5 class="title">Benjamin Evalent</h5>
+                            <span>CEO-Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="team-btn text-center mt-50">
+                        <a class="main-btn" href="#"> View all Members <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== APPIE TEAM PART ENDS ======-->
+
+    <!--====== APPIE PRICING PART START ======-->
+    
+    <section class="spotmies-pricing-area pt-90 pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="spotmies-section-title text-center">
+                        <h3 class="spotmies-title">Choose your plan</h3>
+                        <p>Different layouts and styles for team sections.</p>
+                    </div>
+                    <ul class="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
+                        <li class="month active"><a href="#">Monthly</a></li>
+                        <li>
+                            <!-- Rounded switch -->
+                            <label class="switch on">
+                                <span class="slider round"></span>
+                            </label>
+                        </li>
+                        <li class="year"><a href="#">Annualy</a></li>
+                    </ul><!-- /.list-inline -->                    
+                </div>
+            </div>
+            <div class="tabed-content">
+                <div id="month">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow animated fadeInLeft">
+                            <div class="pricing-one__single">
+                                <div class="pricig-heading">
+                                    <h6>Fresh</h6>
+                                    <div class="price-range"><sup>$</sup> <span>04</span><p>/month</p></div>
+                                    <p>Get your 14 day free trial</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> 15 GB cloud storage</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow animated fadeInUp">
+                            <div class="pricing-one__single center">
+                                <div class="pricig-heading">
+                                    <h6>Sweet</h6>
+                                    <div class="price-range"><sup>$</sup> <span>16</span><p>/month</p></div>
+                                    <p>Billed $276 per website annually.</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> 50 GB cloud storage</li>
+                                        <li><i class="fal fa-check"></i> 24/7 Support</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                                <div class="pricing-rebon">
+                                    <span>Most Popular</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow animated fadeInRight">
+                            <div class="pricing-one__single">
+                                <div class="pricig-heading">
+                                    <h6>Juicy</h6>
+                                    <div class="price-range"><sup>$</sup> <span>27</span><p>/month</p></div>
+                                    <p>Billed $276 per website annually.</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> Data security</li>
+                                        <li><i class="fal fa-check"></i> 100 GB cloud storage</li>
+                                        <li><i class="fal fa-check"></i> 24/7 Support</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /#month -->
+                <div id="year">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow animated fadeInLeft">
+                            <div class="pricing-one__single">
+                                <div class="pricig-heading">
+                                    <h6>Fresh</h6>
+                                    <div class="price-range"><sup>$</sup> <span>32</span><p>/Yearly</p></div>
+                                    <p>Get your 14 day free trial</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> 15 GB cloud storage</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow animated fadeInUp">
+                            <div class="pricing-one__single center">
+                                <div class="pricig-heading">
+                                    <h6>Sweet</h6>
+                                    <div class="price-range"><sup>$</sup> <span>116</span><p>/Yearly</p></div>
+                                    <p>Billed $276 per website annually.</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> 50 GB cloud storage</li>
+                                        <li><i class="fal fa-check"></i> 24/7 Support</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                                <div class="pricing-rebon">
+                                    <span>Most Popular</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow animated fadeInRight">
+                            <div class="pricing-one__single">
+                                <div class="pricig-heading">
+                                    <h6>Juicy</h6>
+                                    <div class="price-range"><sup>$</sup> <span>227</span><p>/Yearly</p></div>
+                                    <p>Billed $276 per website annually.</p>
+                                </div>
+                                <div class="pricig-body">
+                                    <ul>
+                                        <li><i class="fal fa-check"></i> 60-day chat history</li>
+                                        <li><i class="fal fa-check"></i> Data security</li>
+                                        <li><i class="fal fa-check"></i> 100 GB cloud storage</li>
+                                        <li><i class="fal fa-check"></i> 24/7 Support</li>
+                                    </ul>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Choose plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== APPIE PRICING PART ENDS ======-->
+
+    <!--====== APPIE FAQ PART START ======-->
+    
+    <section class="spotmies-faq-area pb-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="spotmies-section-title text-center">
+                        <h3 class="spotmies-title">Frequently asked questions</h3>
+                        <p>Different layouts and styles for team sections.</p>
                     </div>                    
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="spotmies-blog-item-3 mt-30">
-                        <div class="thumb">
-                            <img src="assets/images/blog-4.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="#">How to Improve Your App Store Position</a></h5>
-                            <div class="meta-item">
-                                <ul>
-                                    <li><i class="fal fa-clock"></i> July 14, 2022</li>
-                                    <li><i class="fal fa-comments"></i> July 14, 2022</li>
-                                </ul>
+                    <div class="faq-accordion wow fadeInRight mt-30" data-wow-duration="1500ms">
+                        <div class="accrodion-grp wow fadeIn" data-wow-duration="1500ms" data-grp-name="faq-accrodion">
+                            <div class="accrodion active ">
+                                <div class="accrodion-inner">
+                                    <div class="accrodion-title">
+                                        <h4>Where do I usually find FAQs in a page?</h4>
+                                    </div>
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the duff cras boot bevvy no biggie.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div><!-- /.accrodion-inner -->
+                            </div>
+                            <div class="accrodion  ">
+                                <div class="accrodion-inner">
+                                    <div class="accrodion-title">
+                                        <h4>Where do I usually find FAQs in a page?</h4>
+                                    </div>
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the duff cras boot bevvy no biggie.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div><!-- /.accrodion-inner -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="spotmies-blog-item-3 mt-30">
-                        <div class="thumb">
-                            <img src="assets/images/blog-5.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="#">Introducing New App Design for our iOS App</a></h5>
-                            <div class="meta-item">
-                                <ul>
-                                    <li><i class="fal fa-clock"></i> July 14, 2022</li>
-                                    <li><i class="fal fa-comments"></i> July 14, 2022</li>
-                                </ul>
+                    <div class="faq-accordion wow fadeInRight mt-30" data-wow-duration="1500ms">
+                        <div class="accrodion-grp wow fadeIn" data-wow-duration="1500ms" data-grp-name="faq-accrodion">
+                            <div class="accrodion ">
+                                <div class="accrodion-inner">
+                                    <div class="accrodion-title">
+                                        <h4>Where do I usually find FAQs in a page?</h4>
+                                    </div>
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the duff cras boot bevvy no biggie.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div><!-- /.accrodion-inner -->
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="spotmies-blog-item-3 mt-30">
-                        <div class="thumb">
-                            <img src="assets/images/blog-6.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="#">Engineering job is Becoming More interesting.</a></h5>
-                            <div class="meta-item">
-                                <ul>
-                                    <li><i class="fal fa-clock"></i> July 14, 2022</li>
-                                    <li><i class="fal fa-comments"></i> July 14, 2022</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="spotmies-blog-item-3 mt-30">
-                        <div class="thumb">
-                            <img src="assets/images/blog-7.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="#">20 Myths About Mobile Applications</a></h5>
-                            <div class="meta-item">
-                                <ul>
-                                    <li><i class="fal fa-clock"></i> July 14, 2022</li>
-                                    <li><i class="fal fa-comments"></i> July 14, 2022</li>
-                                </ul>
+                            <div class="accrodion  ">
+                                <div class="accrodion-inner">
+                                    <div class="accrodion-title">
+                                        <h4>Where do I usually find FAQs in a page?</h4>
+                                    </div>
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the duff cras boot bevvy no biggie.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div><!-- /.accrodion-inner -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="blog-btn text-center mt-60">
-                        <a class="main-btn" href="#">View All Posts <i class="fal fa-arrow-right"></i></a>
+                    <div class="faq-text text-center pt-40">
+                        <p>Can't find an answer? <a href="mailto:demo@gmail.com">Email us</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!--====== APPIE BLOG 3 PART ENDS ======-->
+    <!--====== APPIE FAQ PART ENDS ======-->
 
-    <!--====== APPIE PROJECT 3 PART START ======-->
+    <!--====== APPIE BLOG PART START ======-->
     
-    <section class="spotmies-project-3-area">
+    <section class="spotmies-blog-area pt-90 pb-95">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="spotmies-project-3-box d-block d-md-flex justify-content-between align-items-center wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
-                        <h4 class="title">Start your project <br> with Spotmies.</h4>
-                        <a class="main-btn" href="#">Let’s Talk</a>
+                    <div class="spotmies-section-title text-center">
+                        <h3 class="spotmies-title">Latest blog posts</h3>
+                        <p>Different layouts and styles for team sections.</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="spotmies-blog-item mt-30 wow animated fadeInUp" data-wow-duration="3000ms" data-wow-delay="200ms">
+                        <div class="thumb">
+                            <img src="assets/images/blog-1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li>March 10, 2022</li>
+                                    <li><a href="#">Saas & App</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="title"><a href="#">Introducing New Apps Design for our iOS App</a></h3>
+                            <a href="#">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="spotmies-blog-item mt-30 wow animated fadeInUp" data-wow-duration="3000ms" data-wow-delay="400ms">
+                        <div class="thumb">
+                            <img src="assets/images/blog-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li>March 10, 2022</li>
+                                    <li><a href="#">Saas & App</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="title"><a href="#">How to bring Dolce to your company</a></h3>
+                            <a href="#">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="spotmies-blog-item mt-30 wow animated fadeInUp" data-wow-duration="3000ms" data-wow-delay="600ms">
+                        <div class="thumb">
+                            <img src="assets/images/blog-3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li>March 10, 2022</li>
+                                    <li><a href="#">Saas & App</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="title"><a href="#">17 Effective Ways to Monetize Mobile Apps</a></h3>
+                            <a href="#">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!--====== APPIE PROJECT 3 PART ENDS ======-->
+    <!--====== APPIE BLOG PART ENDS ======-->
+
+    <!--====== APPIE PROJECT PART START ======-->
+    
+    <section class="spotmies-project-area pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="spotmies-project-box wow animated slideInUp" data-wow-duration="1000ms" data-wow-delay="0ms">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="spotmies-project-content">
+                                    <h3 class="title">Start your project with spotmies.</h3>
+                                    <p>We will email you only about this product.</p>
+                                    <form action="#">
+                                        <div class="input-box mt-30">
+                                            <input type="text" placeholder="Your email">
+                                            <button>Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spotmies-project-thumb">
+                            <img src="assets/images/project-thumb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== APPIE PROJECT PART ENDS ======-->
 
     <!--====== APPIE FOOTER PART START ======-->
     
-    <section class="spotmies-footer-area spotmies-footer-3-area">
+    <section class="spotmies-footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="footer-about-widget footer-about-widget-3">
+                    <div class="footer-about-widget">
                         <div class="logo">
-                            <a href="#"><img src="assets/images/logo-4.png" alt=""></a>
+                            <a href="#"><img src="assets/images/logo.png" alt=""></a>
                         </div>
                         <p>Spotmies WordPress is theme is the last theme you will ever have.</p>
                         <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
@@ -646,7 +1176,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="footer-navigation footer-navigation-3">
+                    <div class="footer-navigation">
                         <h4 class="title">Company</h4>
                         <ul>
                             <li><a href="#">About Us</a></li>
@@ -658,7 +1188,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="footer-navigation footer-navigation-3">
+                    <div class="footer-navigation">
                         <h4 class="title">Support</h4>
                         <ul>
                             <li><a href="#">Community</a></li>
@@ -702,7 +1232,7 @@
 
 
     <!--====== APPIE BACK TO TOP PART ENDS ======-->
-    <div class="back-to-top back-to-top-3">
+    <div class="back-to-top">
         <a href="#"><i class="fal fa-arrow-up"></i></a>
     </div>
     <!--====== APPIE BACK TO TOP PART ENDS ======-->
@@ -737,6 +1267,10 @@
     
     <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Fontawesome js ======-->
+
+    <!-- <script src="assets/js/fontawesome.min.js"></script> -->
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
