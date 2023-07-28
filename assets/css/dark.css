@@ -1,0 +1,230 @@
+/*dark css*/
+
+
+.spotmies-dark{
+	background: #292E3C;
+}
+
+.spotmies-header-area-dark .spotmies-header-main-menu ul > li > a{
+	color: #fff;
+}
+.spotmies-header-area-dark .header-nav-box .spotmies-btn-box .login-btn{
+	color: #fff;
+}
+
+
+
+.spotmies-hero-area-dark .spotmies-hero-content .spotmies-title{
+	color: #fff;
+}
+
+.spotmies-hero-area-dark .spotmies-hero-content p{
+	color: #fff;
+}
+
+.spotmies-hero-area-dark .spotmies-hero-content ul li a{
+	background: #fff;
+	border-color: #fff;
+	color: #0e1133;
+}
+
+.spotmies-hero-area-dark .spotmies-hero-content ul li a:hover{
+	background: transparent;
+	color: #fff;
+}
+
+.spotmies-hero-area-dark .spotmies-hero-content ul li a.item-2{
+	color: #fff;
+}
+.spotmies-hero-area-dark .spotmies-hero-content ul li a.item-2:hover{
+	background: #fff;
+	color: #0e1133;
+}
+
+.spotmies-service-area.spotmies-service-area-dark{
+	background: #1f2128;
+}
+
+.spotmies-service-area-dark .spotmies-section-title .spotmies-title{
+	color: #fff;
+}
+.spotmies-service-area-dark .spotmies-section-title p{
+	color: #fff;
+}
+
+.spotmies-service-area-dark  .spotmies-single-service{
+	background: #292E3C;
+}
+
+.spotmies-service-area-dark .spotmies-single-service p,
+.spotmies-service-area-dark .spotmies-single-service .spotmies-title{
+	color: #fff;
+}
+
+.spotmies-features-area-dark  .spotmies-features-tabs-btn .nav a{
+	color: #fff;
+}
+
+.spotmies-features-area-dark .spotmies-features-content p,
+.spotmies-features-area-dark .spotmies-features-content .title{
+	color: #fff;
+}
+
+.spotmies-traffic-area-dark .spotmies-traffic-title p,
+.spotmies-traffic-area-dark .spotmies-traffic-title .title{
+	color: #fff;
+}
+
+.spotmies-traffic-area-dark .spotmies-traffic-service p,
+.spotmies-traffic-area-dark .spotmies-traffic-service .title{
+	color: #fff;
+}
+
+.spotmies-traffic-area-dark .traffic-btn a.main-btn{
+	color: #fff;
+}
+.spotmies-traffic-area-dark .traffic-btn a.main-btn:hover{
+	background: #fff;
+	color: #2b70fa;
+}
+
+.spotmies-team-area-dark .spotmies-section-title p,
+.spotmies-team-area-dark .spotmies-section-title .spotmies-title{
+	color: #fff;
+}
+
+.spotmies-team-area-dark .spotmies-team-item .content span,
+.spotmies-team-area-dark .spotmies-team-item .content .title{
+	color: #fff;
+}
+
+.spotmies-team-area-dark .team-btn a{
+	color: #fff;
+}
+
+
+
+.spotmies-faq-area-dark.spotmies-faq-area,
+.spotmies-pricing-area-dark.spotmies-pricing-area{
+	background: #1f2128;
+}
+
+.spotmies-pricing-area-dark .spotmies-section-title p,
+.spotmies-pricing-area-dark .spotmies-section-title .spotmies-title{
+	color: #fff;
+}
+
+
+
+.spotmies-pricing-area-dark.spotmies-pricing-area ul.switch-toggler-list li a{
+	color: #fff;
+	opacity: 0.1;
+}
+.spotmies-pricing-area-dark.spotmies-pricing-area ul.switch-toggler-list li.active a{
+	color: #fff;
+	opacity: 1;
+}
+
+
+.spotmies-pricing-area-dark.spotmies-pricing-area .pricing-one__single{
+	background: #292E3C;
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark .pricing-one__single .pricig-heading h6{
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark .pricing-one__single .pricig-heading .price-range{
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark .pricing-one__single .pricig-heading .price-range p{
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark .pricing-one__single .pricig-heading > p{
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark .pricing-one__single .pricig-body ul li{
+	color: #fff;
+}
+
+.spotmies-pricing-area-dark  .pricing-one__single .pricig-body .pricing-btn a{
+	color: #fff;
+}
+
+
+
+
+.spotmies-faq-area.spotmies-faq-area-dark .spotmies-section-title p,
+.spotmies-faq-area.spotmies-faq-area-dark .spotmies-section-title .spotmies-title{
+	color: #fff;
+}
+
+
+.spotmies-faq-area.spotmies-faq-area-dark .faq-accrodion .accrodion{
+	background: #292E3C;
+	
+}
+.spotmies-faq-area.spotmies-faq-area-dark .faq-accrodion .accrodion .accrodion-inner,
+.spotmies-faq-area.spotmies-faq-area-dark .faq-accrodion .accrodion.active .accrodion-inner{
+	border-color: #292E3C;
+	background: #292E3C;
+}
+
+.spotmies-faq-area.spotmies-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
+.spotmies-faq-area.spotmies-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4{
+	color: #fff;
+}
+
+.spotmies-blog-area-dark .spotmies-section-title p,
+.spotmies-blog-area-dark .spotmies-section-title .spotmies-title{
+	color: #fff;
+}
+.spotmies-blog-area-dark .spotmies-blog-item .content > a,
+.spotmies-blog-area-dark .spotmies-blog-item .content .title a,
+.spotmies-blog-area-dark .spotmies-blog-item .content .blog-meta ul li a,
+.spotmies-blog-area-dark .spotmies-blog-item .content .blog-meta ul li{
+	color: #fff;
+}
+
+.spotmies-blog-area-dark .spotmies-blog-item .content > a:hover,
+.spotmies-blog-area-dark .spotmies-blog-item .content .title a:hover{
+	color: #2b70fa;
+}
+
+
+.spotmies-footer-area-dark.spotmies-footer-area{
+	background: #1f2128;
+}
+
+.spotmies-footer-area-dark .footer-about-widget a,
+.spotmies-footer-area-dark .footer-about-widget p{
+	color: #fff;
+}
+.spotmies-footer-area-dark .footer-about-widget a:hover{
+	color: #2b70fa;
+}
+
+.spotmies-footer-area-dark .footer-widget-info ul li a,
+.spotmies-footer-area-dark .footer-widget-info .title,
+.spotmies-footer-area-dark .footer-navigation ul li a,
+.spotmies-footer-area-dark .footer-navigation .title{
+	color: #fff;
+}
+.spotmies-footer-area-dark .footer-navigation ul li a:hover{
+	color: #2b70fa;
+}
+
+.spotmies-footer-area-dark .footer-copyright .copyright-text p{
+	color: #fff;
+}
+
+.spotmies-footer-area-dark  .footer-copyright .apps-download-btn ul li a:hover{
+	color: #fff;
+}
+.spotmies-footer-area-dark  .footer-copyright .apps-download-btn ul li a.item-2{
+	color: #fff;
+}
