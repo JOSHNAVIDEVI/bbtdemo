@@ -1098,7 +1098,7 @@ p {
   margin-left: 0 !important;
 }
 .spotmies-header-area.spotmies-header-3-area.spotmies-sticky.sticky {
-  background: #0e1133;
+  background: #fcfdfe;
 }
 .spotmies-header-area.spotmies-header-4-area.spotmies-sticky.sticky {
   background: linear-gradient(90deg, rgb(107, 31, 205) 0%, rgb(55, 78, 222) 100%);
@@ -1191,7 +1191,7 @@ p {
   }
 }
 .header-nav-box.header-nav-box-3 .spotmies-header-main-menu ul > li > a {
-  color: #fff;
+  color: #111010;
 }
 .header-nav-box.header-nav-box-3 .spotmies-header-main-menu ul > li .sub-menu li a {
   color: #0e1133;
@@ -1806,8 +1806,8 @@ p {
           animation: linear 25s animationFramesFive infinite;
 }
 .spotmies-hero-area.spotmies-hero-4-area {
-  background: #f9f9f9;
-  background-image: url(../images/hero-shape-1.png);
+  background: #0f117a;
+  /* background-image: url(../images/hero-shape-1.png); */
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 6% 100%;
