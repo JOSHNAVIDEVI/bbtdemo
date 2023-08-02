@@ -829,7 +829,9 @@ p {
 }
 
 .spotmies-header-area {
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  padding: 4px;
+  background-color: white;
   position: absolute;
   left: 0;
   top: 0;
@@ -4917,7 +4919,7 @@ p {
   right: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../images/faq-play-bg.png);
+  background-image: url(../pictures/about.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
