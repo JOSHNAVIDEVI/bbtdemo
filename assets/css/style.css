@@ -2671,9 +2671,13 @@ p {
   width: 70px;
   text-align: center;
   line-height: 70px;
-  background: linear-gradient(135deg, rgb(132, 188, 250) 0%, rgb(43, 112, 250) 100%);
-  box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
+  /* background: linear-gradient(135deg, rgb(132, 188, 250) 0%, rgb(43, 112, 250) 100%); */
+  /* box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3); */
   position: relative;
+}
+.spotmies-single-service .icon img
+{
+  height: 60px;
 }
 .spotmies-single-service .icon > span {
   position: absolute;
@@ -2699,22 +2703,22 @@ p {
   transform: translateY(-15px);
 }
 .spotmies-single-service.item-2 .icon {
-  background: linear-gradient(135deg, rgb(247, 184, 175) 0%, rgb(248, 69, 45) 100%);
+  /* background: linear-gradient(135deg, rgb(247, 184, 175) 0%, rgb(248, 69, 45) 100%); */
 }
 .spotmies-single-service.item-2 .icon span {
-  background: #f8452d;
+  /* background: #f8452d; */
 }
 .spotmies-single-service.item-3 .icon {
-  background: linear-gradient(135deg, rgb(160, 234, 194) 0%, rgb(49, 195, 105) 100%);
+  /* background: linear-gradient(135deg, rgb(160, 234, 194) 0%, rgb(49, 195, 105) 100%); */
 }
 .spotmies-single-service.item-3 .icon span {
-  background: #31c369;
+  /* background: #31c369; */
 }
 .spotmies-single-service.item-4 .icon {
-  background: linear-gradient(135deg, rgb(216, 170, 255) 0%, rgb(155, 44, 250) 100%);
+  /* background: linear-gradient(135deg, rgb(216, 170, 255) 0%, rgb(155, 44, 250) 100%); */
 }
 .spotmies-single-service.item-4 .icon span {
-  background: #9b2cfa;
+  /* background: #9b2cfa; */
 }
 .spotmies-single-service.spotmies-single-services-3 {
   background: transparent;
